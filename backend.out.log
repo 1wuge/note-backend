@@ -38,39 +38,35 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::               (v2.7.18)
 
-2026-09-22 14:51:00.300  INFO 195268 --- [           main] com.noteapp.NoteApplication              : Starting NoteApplication using Java 11.0.1 on DESKTOP-MJR8LGJ with PID 195268 (D:\Compile\ToDO\backend\target\classes started by wuzhimin in D:\Compile\ToDO\backend)
-2026-09-22 14:51:00.303  INFO 195268 --- [           main] com.noteapp.NoteApplication              : No active profile set, falling back to 1 default profile: "default"
-2026-09-22 14:51:00.630  INFO 195268 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-09-22 14:51:00.654  INFO 195268 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 1 JPA repository interfaces.
-2026-09-22 14:51:01.289  INFO 195268 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2026-09-22 14:51:01.296  INFO 195268 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-09-22 14:51:01.296  INFO 195268 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
-2026-09-22 14:51:01.360  INFO 195268 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-09-22 14:51:01.360  INFO 195268 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1034 ms
-2026-09-22 14:51:01.442  INFO 195268 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2026-09-22 14:51:01.462  INFO 195268 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
-2026-09-22 14:51:01.521  INFO 195268 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2026-09-22 14:51:01.567  INFO 195268 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-09-22 14:51:01.651  INFO 195268 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-09-22 14:51:01.658  INFO 195268 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-2026-09-22 14:51:01.932  INFO 195268 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2026-09-22 14:51:01.937  INFO 195268 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-09-22 14:51:02.120  WARN 195268 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-09-22 14:51:02.289  INFO 195268 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2026-09-22 14:51:02.294  INFO 195268 --- [           main] com.noteapp.NoteApplication              : Started NoteApplication in 2.281 seconds (JVM running for 2.528)
-2026-09-22 14:51:33.650  INFO 195268 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-09-22 14:51:33.652  INFO 195268 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-09-22 14:51:33.653  INFO 195268 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-[INFO] ------------------------------------------------------------------------
-[INFO] BUILD FAILURE
-[INFO] ------------------------------------------------------------------------
-[INFO] Total time:  17:06 min
-[INFO] Finished at: 2026-09-22T15:08:05+08:00
-[INFO] ------------------------------------------------------------------------
-[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:2.7.18:run (default-cli) on project note-backend: Application finished with exit code: -1 -> [Help 1]
-[ERROR] 
-[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
-[ERROR] Re-run Maven using the -X switch to enable full debug logging.
-[ERROR] 
-[ERROR] For more information about the errors and possible solutions, please read the following articles:
-[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+2026-10-22 17:33:11.284  INFO 119008 --- [           main] com.noteapp.NoteApplication              : Starting NoteApplication using Java 11.0.1 on DESKTOP-MJR8LGJ with PID 119008 (D:\Compile\ToDO\backend\target\classes started by wuzhimin in D:\Compile\ToDO\backend)
+2026-10-22 17:33:11.284  INFO 119008 --- [           main] com.noteapp.NoteApplication              : No active profile set, falling back to 1 default profile: "default"
+2026-10-22 17:33:11.632  INFO 119008 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-22 17:33:11.632  INFO 119008 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-22 17:33:11.667  INFO 119008 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26 ms. Found 1 JPA repository interfaces.
+2026-10-22 17:33:11.675  INFO 119008 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-22 17:33:11.676  INFO 119008 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-10-22 17:33:11.682  INFO 119008 --- [           main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.noteapp.repository.DocRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-10-22 17:33:11.682  INFO 119008 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2026-10-22 17:33:12.320  INFO 119008 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 3100 (http)
+2026-10-22 17:33:12.334  INFO 119008 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-22 17:33:12.334  INFO 119008 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2026-10-22 17:33:12.421  INFO 119008 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-10-22 17:33:12.421  INFO 119008 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1105 ms
+2026-10-22 17:33:12.484  INFO 119008 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-10-22 17:33:12.500  INFO 119008 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2026-10-22 17:33:12.550  INFO 119008 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2026-10-22 17:33:12.588  INFO 119008 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-10-22 17:33:12.659  INFO 119008 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-10-22 17:33:12.662  INFO 119008 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2026-10-22 17:33:12.933  INFO 119008 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2026-10-22 17:33:12.939  INFO 119008 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-22 17:33:13.430  WARN 119008 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-10-22 17:33:13.609  INFO 119008 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 3100 (http) with context path ''
+2026-10-22 17:33:13.614  INFO 119008 --- [           main] com.noteapp.NoteApplication              : Started NoteApplication in 2.566 seconds (JVM running for 2.829)
+2026-10-22 17:33:31.390  INFO 119008 --- [nio-3100-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-22 17:33:31.390  INFO 119008 --- [nio-3100-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-10-22 17:33:31.395  INFO 119008 --- [nio-3100-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2026-10-23 09:10:33.076  WARN 119008 --- [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10h59m17s499ms130?s600ns).
+2026-10-23 13:56:41.081  WARN 119008 --- [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h20m6s11ms75?s700ns).
+2026-10-23 18:57:52.121  WARN 119008 --- [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m5s495ms563?s100ns).
+2026-10-23 21:16:11.880  WARN 119008 --- [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m17s519ms81?s700ns).
